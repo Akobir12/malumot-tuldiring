@@ -1,0 +1,53 @@
+body {
+	background-color: #D4DEC8;
+	text-align: center;
+}
+.glavnidiv {
+	width: 500px;
+	height: 600px;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+/*	background-color: white;*/
+}
+.yozuv{
+	color: #EEF7E8;
+	text-transform: uppercase;
+	opacity: 0.8;
+}
+img{
+	border-radius: 3px;
+	width: 100px;
+	margin-top: 10px;
+	border: 2px solid white;
+	box-shadow: inset 0px 0px 3px 7px rgba(199,209,192,1),
+				13px 13px 21px 0px rgba(125,120,125,1);
+}
+input {
+	height: 23px;
+	padding-left: 13px;
+	font-weight: bolder;
+	background-color: white;
+	box-shadow: inset 0px 0px 1px 3px rgba(199,209,192,1),
+				13px 13px 21px 0px rgba(125,120,125,1);
+	border-radius: 4px;
+	border: 1.5px solid white;
+}
+input::placeholder {
+	opacity: 0.8;
+	color: #656E73;
+}
+.text1 {
+	margin-left: 26px;
+	width: 100px;
+}
+.text2 {
+	width: 100px;
+}
+.text3 {
+	width: 215px;
+}
+.tugma {
+	width: 60px;
+	height: 35px;
+}
